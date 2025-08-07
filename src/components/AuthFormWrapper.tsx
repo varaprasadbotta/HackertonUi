@@ -21,7 +21,7 @@ const AuthFormWrapper = ({ children, isTyping = false, isPasswordVisible = false
         </div>
         
         {/* Right side - Interactive Monkey */}
-        <div className="hidden lg:flex items-center justify-center">
+        <div className="flex items-center justify-center">
           <InteractiveMonkey isTyping={isTyping} isPasswordVisible={isPasswordVisible} />
         </div>
         
