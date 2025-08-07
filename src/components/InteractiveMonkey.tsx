@@ -23,7 +23,7 @@ const InteractiveMonkey: React.FC<MonkeyProps> = ({ isTyping, isPasswordVisible 
     const blinkInterval = setInterval(() => {
       setEyesOpen(false);
       setTimeout(() => setEyesOpen(true), 150);
-    }, 3000 + Math.random() * 2000);
+    }, 3000 + Math.random() * 3000);
     return () => clearInterval(blinkInterval);
   }, []);
 
