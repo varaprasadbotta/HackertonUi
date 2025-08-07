@@ -7,10 +7,10 @@ const AuthFormWrapper = ({ children }: { children: React.ReactNode }) => {
       </div>
       
       {/* Right side - Image */}
-      <div className="hidden lg:block ml-8">
-        <img 
-          src="https://i.pinimg.com/736x/18/11/f3/1811f344025539b7b4abb446eb6f910d.jpg" 
-          alt="Background illustration" 
+      <div className="ml-8">
+        <img
+          src="https://i.pinimg.com/736x/18/11/f3/1811f344025539b7b4abb446eb6f910d.jpg"
+          alt="Background illustration"
           className="w-96 h-96 object-cover rounded-2xl shadow-2xl animate-float"
         />
       </div>
